@@ -2,6 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import {Cursor, useTypewriter} from "react-simple-typewriter"
 import BackgroundCircles from "../components/BackgroundCircles"
+import Background from "./Background"
 
 type Props = {}
 
@@ -12,7 +13,7 @@ function Hero({}: Props) {
         delaySpeed:1500,
     })
   return (
-    <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden '>
+    <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
         {/* <BackgroundCircles /> */}
 
         <h1 className='text-5xl lg:6xl'>Parth Dodia</h1>
